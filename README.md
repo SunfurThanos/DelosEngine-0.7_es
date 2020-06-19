@@ -43,25 +43,7 @@ lo querrás para siempre, ¡DelosEngine tu mano derecha en Python!
 
 ---
 
-**Licencia**: GNU GPL v3 <http://www.gnu.org/licenses/>, leer el archivo [LICENSE.md](LICENSE.md)
-
----
-
-## ¿como instalar el FrameWork DelosEngine?
-
-1. Asegúrese de tener instalado Python 2.5 o superior
-
-2. Ejecute el archivo "instalar.py" desde una consola o desde su IDE de preferencia
-
-3. Felicidades ya puedes usar DelosEngine en Python :)
-
-**Resumen**: solo necesitas tener Python para instalar DelosEngine, la instalación
-se hace de manera OFFLINE (local) de forma muy sencilla y multi-plataforma
-sin requerir dependencias ni permisos administrativos, ¿que tan fácil, crees que fue instalarlo?
-
----
-
-> ¿Que problema resuelve DelosEngine?
+> ¿Que problemas resuelve DelosEngine?
 
 Este FrameWork ayuda a las personas inexpertas o profesionales, a entender ciertos parámetros del código de forma intuitiva, la mayor ventaja es que te permitirá programar 50% más rápido y productivo en Python, ¿quieres un ejemplo básico de uso?
 
@@ -86,17 +68,35 @@ DelosEngine es productivo, ya que lee de manera automática archivos planos y bi
 
 ---
 
-## ¿foro de preguntas?
+**Licencia**: GNU GPL v3 <http://www.gnu.org/licenses/>, leer el archivo [LICENSE.md](LICENSE.md)
 
-- Para dirigir sus comentarios, dudas, ideas de desarrollo, por favor escriba...
+---
+
+## ¿Como instalar el FrameWork DelosEngine?
+
+1. Asegúrese de tener instalado Python 2.5 o superior
+
+2. Ejecute el archivo "instalar.py" desde una consola o desde su IDE de preferencia
+
+3. Felicidades ya puedes usar DelosEngine en Python :)
+
+**Resumen**: solo necesitas tener Python para instalar DelosEngine, la instalación
+se hace de manera OFFLINE (local) de forma muy sencilla y multi-plataforma
+sin requerir dependencias ni permisos administrativos, ¿que tan fácil, crees que fue instalarlo?
+
+---
+
+## ¿Foro de preguntas?
+
+- Para dirigir sus comentarios, remesas, dudas, ideas de desarrollo, por favor escriba...
 
 *correo*: hormigence123@gmail.com
 
 ---
 
-## ¿te enamoraste de DelosEngine, quieres ayudar económicamente al desarrollador?
+## ¿Te enamoraste de DelosEngine, quieres ayudar económicamente al desarrollador?
 
 - Si consideras que el DelosEngine vale algo para tu día a día, puedes enviarme una remesa,
-con lo cual harás que el proyecto siga siendo ¡GRATUITO & LIBRE!.
+con lo cual harás que el proyecto siga siendo ¡GRATUITO & LIBRE!...
 
-eres una empresa grande, pequeña, Freelance, ¿usas este proyecto en tu día a día?, !házmelo saber!, actualmente busco patrocinadores que deseen ayudar al proyecto con publicidad y donativos, los mismos serán incluidos en los créditos del proyecto como los HÉROES :)
+eres una empresa grande, pequeña, Freelance, ¿usas este proyecto en tu día a día?, !házmelo saber!, este proyecto necesita patrocinadores que deseen ayudar al proyecto con publicidad, donativos y sugerencias, los mismos serán incluidos en los créditos del proyecto como los HÉROES :)
