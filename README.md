@@ -64,11 +64,11 @@ Con DelosEngine :)
 bytes_leidos = r"C:\Program Files\7-Zip\7zG.exe".path.read()
 ```
 
-DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [samples](samples).
+DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso, quieres saber que más hace?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [samples](samples).
 
 ---
 
-**Licencia**: GNU GPL v3 <http://www.gnu.org/licenses/>, leer el archivo [LICENSE.md](LICENSE.md)
+**Licencia**: [GNU GPL v3](http://www.gnu.org/licenses)
 
 ---
 
@@ -100,3 +100,36 @@ sin requerir dependencias ni permisos administrativos, ¿que tan fácil, crees q
 con lo cual harás que el proyecto siga siendo ¡GRATUITO & LIBRE!...
 
 eres una empresa grande, pequeña, Freelance, ¿usas este proyecto en tu día a día?, !házmelo saber!, este proyecto necesita patrocinadores que deseen ayudar al proyecto con publicidad, donativos y sugerencias, los mismos serán incluidos en los créditos del proyecto como los HÉROES :)
+
+---
+
+# ¿como convierto DelosEngine a portable?
+Suponiendo que deseas usar DelosEngine en Python para desarrollo web y los `administradores` del servidor de donde pagas para hospedar tu proyecto web, no te dejan instalar nuevos complementos para el interprete de Python, !NO hay PROBLEMA, eso tiene solución!, veras DelosEngine al ser instalado solo es un simple archivo `.pyc`, por lo cual puede ser fácilmente transportado.
+
+*PASO 0*
+- Instala DelosEngine en tu computadora personal :)
+
+*PASO 1*
+- Debes averiguar donde esta instalado, eso se hace fácilmente con el comando...
+
+```python
+print (delos.__file__)
+```
+
+*PASO 2*
+- Copia el archivo `DelosEngine.pyc` al directorio de tu proyecto
+
+*PASO FINAL*
+- Ahora importalo en el `$main.py` de tu proyecto, DelosEngine al ser importado todas sus funciones podrán ser llamadas en cualquier modulo del `$main.py` de tu aplicación, ya con esto salvas el día, usando una nueva tecnología y sin mendigar cambios a terceros :)
+
+---
+
+# Herramientas en Desarrollo
+
+- Soporte para documentación y comentarios en ingles
+
+- Archivo `Markdown` para lista de consulta de funciones de FrameWork
+
+---
+
+*Sunfur Thanos* Si aprendes a estar abierto para adaptarte ¡seras invencible!
