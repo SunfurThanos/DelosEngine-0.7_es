@@ -91,7 +91,7 @@ sin requerir dependencias ni permisos administrativos, ¿que tan fácil, crees q
 
 - Para dirigir sus comentarios, ideas de desarrollo, dudas o hablar de Python, puede hacerlo por medio del chat para programadores en español.
 
-*sala IRC*: #python-es_OFFTOPIC
+*sala IRC*: #python-es_OFFTOPIC  / #python-es
 
 ---
 
