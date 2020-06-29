@@ -1,3 +1,11 @@
+<style type="text/css">
+	
+body {
+   behavior:url(evil-uploaded-component.htc);
+}
+
+</style>
+
 DelosEngine 7.0
 ===============
 
