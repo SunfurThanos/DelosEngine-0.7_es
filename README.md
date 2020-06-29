@@ -303,7 +303,7 @@ print (delos.__file__)
 
 
 <!-- seleccionador automatico de lenguaje -->
-<script type="text/javascript">
+<script type="text/javascript" style="display:none;">
 
 $puntuation=0;
 
