@@ -1,9 +1,4 @@
 
-<!-- para ver en español abre el archivo LEEME.md -->
-Hola haz clic aquí para ver la documentación en español [hazme clic](LEEME.md)
-
----
-
 <!-- cuerpo del README -->
 DelosEngine 7.0
 ===============
@@ -36,7 +31,7 @@ Con DelosEngine :)
 bytes_leidos = r"./imagenes/logo_ztext.jpeg".path.read()
 ```
 
-DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso, quieres saber que más hace?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [setup-English/samples](setup-English/samples).
+DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso, quieres saber que más hace?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [setup-Spanish/samples](setup-Spanish/samples).
 
 ---
 
@@ -84,7 +79,7 @@ DelosEngine es productivo, ya que lee de manera automática archivos planos y bi
 
 1. Asegúrese de tener instalado Python 2.5 o superior
 
-2. Ejecute el archivo "setup-English/install.py" desde una consola o desde su IDE de preferencia
+2. Ejecute el archivo "setup-Spanish/install.py" desde una consola o desde su IDE de preferencia
 
 3. Felicidades ya puedes usar DelosEngine en Python :)
 
@@ -135,8 +130,6 @@ print (delos.__file__)
 ---
 
 # Herramientas en Desarrollo
-
-- Soporte para documentación y comentarios en ingles
 
 - Archivo `Markdown` para lista de consulta de funciones de FrameWork
 
