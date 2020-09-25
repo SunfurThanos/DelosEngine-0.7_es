@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 """
   Autor       : Sunfur Thanos
@@ -26,26 +26,26 @@ if hasattr(__builtins__, "delos"):
   coyotito = 0x0 if not isConsole else 0.8
   exit ('Error: Ya existe una version anterior de DelosEngine (v%s)' % delos.__version__, coyotito)
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
-import shutil, sys, os, py_compile, site, zlib
+import shutil, sys, os, py_compile, site
 from glob import glob as FindFile
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 try: os.chdir(os.path.dirname(os.path.abspath(__file__)))
 except: pass
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 ##### Diciéndole a Python donde esta la ruta de módulos personalizados #####
 base_dir = os.path.split(__file__)[0]
-base_library = os.path.join(base_dir, 'source-code/modulos')
+base_library = os.path.join(base_dir, 'source-code/modules')
 sys.path.append(base_library)
 base_library = os.path.join(base_dir, 'source-code')
 sys.path.append(base_library)
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 # modulos DelosEngine
 from get_dict_CPython import *
@@ -56,25 +56,25 @@ from cache_variables  import *
 from cut_tools        import *
 from utilidades       import *
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 console.clear()
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 coyotito = 0x0 if not isConsole else 0.8
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 Salida_tmp_py = "Delos_temporalZ.py"
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 ### unir todos los modulos en uno solo ###
 
 MAIN = ""
 BODY = ""
-for archivo in "./source-code/modulos".path.listdir():
+for archivo in "./source-code/modules".path.listdir():
     if archivo.path.ext == "py":
       DATA = archivo.path.read()
       if archivo.path.name == "get_dict_CPython":
@@ -85,7 +85,7 @@ for archivo in "./source-code/modulos".path.listdir():
 result = MAIN + BODY
 Salida_tmp_py.path.save(result.replace("\t", " ")).close()
 
-#--------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 
 ### convertir modulo a (pyc) y copiandolo al directorio de trabajo de Python ###
 

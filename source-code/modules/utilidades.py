@@ -136,6 +136,13 @@ class ClassName(object):
             f = str('%.2f' % archivo)[0:-1]
         return (f, suffixes[i])
 
+
+    @staticmethod
+    def Get_memory_size(data_obj, bytes_=False):
+        result = sys.getsizeof(data_obj)
+        return result if bytes_ else result.size().join(" ")
+
+
     @staticmethod
     def to_float(obj, maxi=False):
 
@@ -193,6 +200,26 @@ class ClassName(object):
         		return string.float(len(string))
         except:
         	return cadena
+
+    @staticmethod
+    def toReverse(cadena):
+
+        number = False
+        if type(cadena) in (int, float, type(0xCC4336DA),):
+            number = True
+            cadena = str(cadena)
+
+        if type(cadena) in (list, tuple):
+            return [token for token in reversed(cadena)]
+
+        tmp = ""
+        for token in reversed(cadena):
+            tmp+=token
+
+        if number: return tmp.toN
+
+        return tmp
+
 
     @staticmethod
     def toNegative(cadena):
@@ -505,6 +532,9 @@ CPythonBuiltin.create(
 
     ((str, bytes, int, float, list, tuple), "size", ClassName().bytesPeso),
 
+    ((str, bytes, int, float, list, tuple, dict),
+        "memory_size", ClassName().Get_memory_size),
+
     ((str, bytes, list, tuple,), "any", ClassName().any),
 )
 
@@ -523,6 +553,9 @@ if sys.version_info[0] < 3:
         ((unicode, long,), "type", ClassName().tipo_obj),
 
         ((unicode, long, ), "size", ClassName().bytesPeso),
+
+        ((unicode, long, ),
+            "memory_size", ClassName().Get_memory_size),
 
         ((long,), "xfloat", ClassName().to_xfloat),
 
@@ -550,4 +583,8 @@ CPythonBuiltin.create(
 
     ((int, float, 0xCC4336DA, str, BYTES, UNi,), "toPositive", ClassName().toPositive),
     ((int, float, 0xCC4336DA, str, BYTES, UNi,), "toNegative", ClassName().toNegative),
+
+
+    ((type(STR), type(UNi), type(BYTES), list, tuple,), "toReverse", ClassName().toReverse),
+    ((int, float, type(0xCC4336DA), str, BYTES, UNi,), "toReverse", ClassName().toReverse),
 )

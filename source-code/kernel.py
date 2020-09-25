@@ -16,13 +16,13 @@
 """
 
 # importando modulos (default) de Python
-import os, sys, time, ctypes
+import os, sys
 
 #-------------------------------------------------------------------------
 
 #  Diciéndole a Python donde esta la ruta de módulos personalizados
 base_dir = os.path.split(__file__)[0x0]
-base_library = os.path.join(base_dir, 'modulos')
+base_library = os.path.join(base_dir, 'modules')
 sys.path.append(base_library)
 
 #-------------------------------------------------------------------------

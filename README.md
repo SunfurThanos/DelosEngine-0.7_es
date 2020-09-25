@@ -1,6 +1,5 @@
 
-<!-- cuerpo del README -->
-DelosEngine 7.0
+DelosEngine 7.1
 ===============
 
 Es una potente herramienta de productividad multiplataforma, se auto-ejecuta en tiempo real durante la ejecución de Python y proporciona múltiples herramientas de productividad que agiliza enormemente la codificación de código.
@@ -12,13 +11,13 @@ lo querrás para siempre, ¡DelosEngine tu mano derecha en Python!
 
 > ¿Que problemas resuelve DelosEngine?
 
-Este FrameWork ayuda a las personas inexpertas o profesionales, a entender ciertos parámetros del código de forma intuitiva, ¿que exactamente hace? agiliza la escritura en Python, de una manera muy similar a lo que hace jQuery en JS, ¿quieres un ejemplo básico de uso?
+Este FrameWork ayuda a las personas inexpertas o profesionales, a codificar de forma intuitiva, ágil & productiva, de una manera muy similar a lo que hace el FrameWork jQuery en JS, ¿quieres un ejemplo básico de uso?.
 
 Sin DelosEngine :(
 
 ```python
 # leer el contenido de un archivo binario, de forma nativa
-archivo_imagen = r"./imagenes/logo_ztext.jpeg"
+archivo_imagen = r"./iconos/imagen.png"
 instancia    = open(archivo_imagen, "rb")
 bytes_leidos = instancia.read()
 instancia.close()
@@ -28,10 +27,10 @@ Con DelosEngine :)
 
 ```python
 # leer el contenido de un archivo binario, de forma MÁGICA
-bytes_leidos = r"./imagenes/logo_ztext.jpeg".path.read()
+bytes_leidos = r"./iconos/imagen.png".path.read()
 ```
 
-DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso, quieres saber que más hace?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [setup-Spanish/samples](setup-Spanish/samples).
+DelosEngine es productivo, ya que lee de manera automática archivos planos y binarios ¡sin que especifiques que tipo de archivo es!, ademas lee todo el archivo y lo cierra automáticamente, ¿Te encanto quieres más ejemplos de uso, quieres saber que más hace?, !pues que esperas descarga DelosEngine y lee los ejemplos de la carpeta [samples](samples).
 
 ---
 
@@ -79,7 +78,7 @@ DelosEngine es productivo, ya que lee de manera automática archivos planos y bi
 
 1. Asegúrese de tener instalado Python 2.5 o superior
 
-2. Ejecute el archivo "setup-Spanish/install.py" desde una consola o desde su IDE de preferencia
+2. Ejecute el archivo "install.py" desde una consola o desde su IDE de preferencia
 
 3. Felicidades ya puedes usar DelosEngine en Python :)
 
@@ -93,7 +92,7 @@ sin requerir dependencias ni permisos administrativos, ¿que tan fácil, crees q
 
 - Para dirigir sus comentarios, ideas de desarrollo, dudas o hablar de Python, puede hacerlo por medio del chat para programadores en español.
 
-*sala IRC*: #python | #python-es
+*sala IRC*: #python-es
 
 ---
 
@@ -125,13 +124,7 @@ print (delos.__file__)
 - Copia el archivo `DelosEngine.pyc` al directorio de tu proyecto
 
 *PASO FINAL*
-- Ahora importalo en el `$main.py` de tu proyecto, DelosEngine al ser importado todas sus funciones podrán ser llamadas en cualquier modulo del `$main.py` de tu aplicación, ya con esto salvas el día, usando una nueva tecnología y sin mendigar cambios a terceros :)
-
----
-
-# Herramientas en Desarrollo
-
-- Archivo `Markdown` para lista de consulta de funciones de FrameWork
+- Ahora importalo en el `$main.py` de tu proyecto, DelosEngine al ser importado todas sus funciones podrán ser llamadas en cualquier modulo de tu aplicación, ya con esto salvas el día, usando una nueva tecnología y sin mendigar cambios a terceros :)
 
 ---
 

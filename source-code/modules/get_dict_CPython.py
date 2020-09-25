@@ -37,9 +37,9 @@ except:
 
 #-------------------------------------------------------------------------
 
-__version__ = 7.0
+__version__ = 7.1
 
-__build__   = (__version__, "28/06/2020", "08:28:26 PM")
+__build__   = (__version__, "23/09/2020", "11:35:21 AM")
 
 __author__  = 'Sunfur Thanos'
 
@@ -421,7 +421,7 @@ def detect_key_getch():
     	        ch = sys.stdin.read(1)
     	    finally:
     	        termios.tcsetattr(fd, termios.TCSADRAIN, old)
-    	    return ch
+    	    return chb
     key = getch()
     if type(key) == str: key = bytes(key)
     return key
