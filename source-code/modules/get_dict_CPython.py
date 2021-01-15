@@ -3,7 +3,7 @@
 #-------------------------------------------------------------------------
 
 """
-  Autor: Sunfur Thanos
+  Autor: Andrade Echarry -> 'ALF'
 
   Pais : Venezuela
 
@@ -11,7 +11,7 @@
 
   Licencia : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-  Copyright (C) 2019-2020 Sunfur Thanos. All rights reserved.
+  Copyright (C) 2019-2020 Andrade Echarry -> 'ALF'. All rights reserved.
 
 """
 
@@ -39,9 +39,9 @@ except:
 
 __version__ = 7.1
 
-__build__   = (__version__, "23/09/2020", "11:35:21 AM")
+__build__   = (__version__, "11/01/2021", "04:41:54 PM")
 
-__author__  = 'Sunfur Thanos'
+__author__  = 'Andrade Echarry -> ALF'
 
 __email__   = 'hormigence123@gmail.com'
 

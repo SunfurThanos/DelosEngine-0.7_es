@@ -4,7 +4,7 @@
 #-------------------------------------------------------------------------------------------
 
 """
-  Autor    : Sunfur Thanos
+  Autor    : Andrade Echarry -> 'ALF'
 
   Pais     : Venezuela
 
@@ -14,7 +14,7 @@
 
   Licencia : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-  Copyright (C) 2019-2020 Sunfur Thanos. All rights reserved.
+  Copyright (C) 2019-2020 Andrade Echarry -> 'ALF'. All rights reserved.
 """
 
 if not hasattr(__builtins__, "delos"): print ("Error: DelosEngine no esta instalado :("); exit()

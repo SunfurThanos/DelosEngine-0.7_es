@@ -4,7 +4,7 @@
 #-----------------------------------------------------------------------------------------
 
 """
-  Autor       : Sunfur Thanos
+  Autor       : Andrade Echarry -> 'ALF'
 
   Pais        : Venezuela
 
@@ -16,7 +16,7 @@
 
   Licencia    : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-  Copyright (C) 2019-2020 Sunfur Thanos. All rights reserved.
+  Copyright (C) 2019-2020 Andrade Echarry -> 'ALF'. All rights reserved.
 
 """
 
@@ -126,6 +126,7 @@ def setAutoRun():
     return True if autorun_FrameWork_path.path.isfile else False
 
 if not setAutoRun():
+	# KERNEL ERROR => puto python de *
 	Sleep ("no se pudo agregar punto de auto-run para DelosEngine", coyotito)
 
 #-------------------------------------------------------------------------

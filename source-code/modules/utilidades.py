@@ -3,7 +3,7 @@
 #-------------------------------------------------------------------------
 
 """
-  Autor: Sunfur Thanos
+  Autor: Andrade Echarry -> 'ALF'
 
   Pais : Venezuela
 
@@ -11,7 +11,7 @@
 
   Licencia : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-  Copyright (C) 2019-2020 Sunfur Thanos. All rights reserved.
+  Copyright (C) 2019-2020 Andrade Echarry -> 'ALF'. All rights reserved.
 
 """
 
@@ -499,10 +499,10 @@ class ClassName(object):
 #-------------------------------------------------------------------------
 
 # S.encode(encoding='utf-8', errors='strict')
-funct_oring_encode = Get_Builtin_object(str)["encode"]
+# funct_oring_encode = Get_Builtin_object(str)["encode"]
 
 # B.decode(encoding='utf-8', errors='strict')
-funct_oring_decode = Get_Builtin_object(bytes)["decode"]
+# funct_oring_decode = Get_Builtin_object(bytes)["decode"]
 
 BYTES = b""
 STR   = ""
@@ -524,11 +524,11 @@ CPythonBuiltin.create(
 
     ((UNi, STR, BYTES,), "hash", ClassName().to_hash),
 
-    ((str, bytes,), "xencode", funct_oring_encode),
-    ((str, bytes,), "encode", ClassName().encode),
+    # ((str, bytes,), "xencode", funct_oring_encode),
+    # ((str, bytes,), "encode", ClassName().encode),
 
-    ((str,), "xdecode", funct_oring_decode),
-    ((str,), "decode", ClassName().decode),
+    # ((str,), "xdecode", funct_oring_decode),
+    # ((str,), "decode", ClassName().decode),
 
     ((str, bytes, int, float, list, tuple), "size", ClassName().bytesPeso),
 
@@ -545,8 +545,8 @@ builtin_instance.Get_ObjectsTypes = functActivateFutureType
 
 
 if sys.version_info[0] < 3:
-    funct_oring_encodeU = Get_Builtin_object(unicode)["encode"]
-    funct_oring_decodeU = Get_Builtin_object(unicode)["decode"]
+    # funct_oring_encodeU = Get_Builtin_object(unicode)["encode"]
+    # funct_oring_decodeU = Get_Builtin_object(unicode)["decode"]
 
     CPythonBuiltin.create(
         ((unicode, long,), "len", ClassName().len_bytes),
@@ -559,16 +559,16 @@ if sys.version_info[0] < 3:
 
         ((long,), "xfloat", ClassName().to_xfloat),
 
-        ((str, bytes,), "xencode", funct_oring_encode),
-        ((str, bytes,), "xencode", funct_oring_encode),
+        # ((str, bytes,), "xencode", funct_oring_encode),
+        # ((str, bytes,), "xencode", funct_oring_encode),
 
-        ((unicode,), "xencode", funct_oring_encodeU),
+        # ((unicode,), "xencode", funct_oring_encodeU),
 
-        ((bytes,), "xdecode", funct_oring_decode),
+        # ((bytes,), "xdecode", funct_oring_decode),
 
-        ((unicode,), "xdecode", funct_oring_decodeU),
+        # ((unicode,), "xdecode", funct_oring_decodeU),
 
-        ((unicode, bytes,), "decode", ClassName().decode),
+        # ((unicode, bytes,), "decode", ClassName().decode),
 
         ((unicode,), "any", ClassName().any),
     )

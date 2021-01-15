@@ -16,7 +16,7 @@ print (variable.funcion())
 
 # agregando un nombre personalizado al "nameSpace"
 variable = NameSpace()
-variable.name_space = "<Sunfur Thanos-object>"
+variable.name_space = "<Andrade Echarry -> 'ALF'-object>"
 print (variable)
 
 

@@ -3,7 +3,7 @@
 #--------------------------------------------------------------------------------------------------
 
 """
-  Autor: Sunfur Thanos
+  Autor: Andrade Echarry -> 'ALF'
 
   Pais : Venezuela
 
@@ -11,7 +11,7 @@
 
   Licencia : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-  Copyright (C) 2019 Sunfur Thanos. All rights reserved.
+  Copyright (C) 2019 Andrade Echarry -> 'ALF'. All rights reserved.
 
 """
 
